@@ -20,8 +20,8 @@ form:
       type: input.text
       description: Ingrese el selector CSS del elemento  que será fijado en la parte superior del navegador.Ejemplo:'#g-header'.
       label: Selector CSS
-      placeholder: '#g-header'
-      default: '#g-header'
+      placeholder: '#g-navigation'
+
 
     offset:
       type: input.text
@@ -110,6 +110,8 @@ form:
         hinge: hinge
         rollIn: rollIn
         rollOut: rollOut
+        
+        
     animationbajascroll:
       type: select.select
       label: Efecto de salida
@@ -191,6 +193,8 @@ form:
         hinge: hinge
         rollIn: rollIn
         rollOut: rollOut
+        
+        
     mobile:
       type: select.select
       label: Movil
