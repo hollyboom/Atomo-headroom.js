@@ -18,10 +18,10 @@ form:
 
     cssselector:
       type: input.text
-      description: Ingrese el selector CSS del elemento  que será fijado en la parte superior del navegador.Ejemplo:'#g-header'.
+      description: Ingrese el selector CSS del elemento  que será fijado en la parte superior del navegador.Ejemplo:'#g-navigation'.
       label: Selector CSS
       placeholder: '#g-navigation'
-
+      default: '#g-navigation'
 
     offset:
       type: input.text
